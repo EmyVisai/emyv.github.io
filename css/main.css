@@ -91,6 +91,203 @@ nav a:hover, a:active {
   color: #000;
 }
 
+/* HOME CSS */
+#heroBanner {
+    background-image: url("../images/bgSmall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 2;
+}
+
+.heroButton {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    padding: .5em .5em;
+    border-radius: 20px;
+    display: inline-block;
+    width: 200px;
+}
+
+section h1 {
+    font-family: "Poppins";
+    font-size: 3em;
+    font-weight: bold;
+    padding: .75em 0 .75em 0;
+}
+
+.homeGraphics img {
+    width: 75%;
+}
+
+figcaption {
+    font-family: "Poppins";
+    font-size: 1.8em;
+}
+
+.graphicButton {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    padding: .5em .5em;
+    border-radius: 20px;
+    margin: .5em 0 1.25em;
+    display: inline-block;
+    width: 50%;
+}
+
+/* FAQ CSS */
+
+#searchSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD8DB;
+}
+
+#searchSection h1 {
+    padding: 0;
+    margin: .75em 0 .75em 0;
+}
+
+#searchSection .button {
+    width: 150px;
+}
+
+.searchBar {
+    width: 75%;
+    margin-bottom: 1em;
+    height: 30px;
+}
+
+#faqContainer {
+    width: 80%;
+    margin: 0 10% 2em 10%;
+    overflow: auto;
+}
+
+.faqTitle h1 {
+    padding: 0;
+    margin: .75em 0 .75em 0;
+}
+
+.faqTitle h3 {
+    margin: 1em 0;
+    height: 2em;
+    font-size: 1.75em;
+}
+
+.faq .question {
+    padding: .25em .5em .25em .5em;
+    font-weight: bold;
+    font-size: 1.75em;
+    border: 1px #FFD8DB solid;
+}
+
+.faq .question:nth-child(1),
+.faq .question:nth-child(5),
+.faq .question:nth-child(9) {
+    background: #FFD8DB;
+}
+
+.faq .answer {
+    font-weight: bold;
+    margin: .5em 0 .5em 0;
+    font-size: 1.5em;
+    background: #fff;
+    color: #000;
+    display: none;
+}
+
+/* CONTACT US CSS */
+
+
+#contactInfo h1 {
+    margin: .5em;
+}
+
+#contactInfo h2 {
+    font-size: 1.75em;
+    margin: .25em;
+}
+
+#contactInfo p {
+    font-size: 1.25em;
+    margin: .75em .25em;
+}
+
+.phoneNumber {
+    color: #38AEAE;
+    text-decoration: none;
+}
+
+.fNameField .lNameField {
+    color: #FFD8DB;
+}
+
+.contactForm {
+  margin-top: 1em;
+  font-size: 1.5rem;
+}
+
+.contactFieldSet {
+  padding: .5em;
+  margin-bottom: 0;
+  background-color: #FFD8DB;
+  width: 100%;
+  display: grid;
+  align-items: flex-start;
+}
+
+.contactFieldSet input {
+    min-height: 25px;
+}
+
+.contactForm li {
+  list-style-type: none;
+  margin-bottom: .5em;
+}
+
+.topic select {
+    margin: .5em 0 .5em 0;
+    min-height: 25px;
+}
+
+.messageBox {
+    margin: .5em 0 .5em 0;
+}
+
+.messageBox textarea {
+    width: 90%;
+    min-height: 100px;
+    padding: .25em;
+}
+
+.messageBox .button {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: .5em .5em;
+  border-radius: 20px;
+  margin: .25em 0 1em;
+  display: inline-block;
+  width: 200px;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
  /* ORDER CSS */
 section {
   margin: 0 1em;
@@ -103,6 +300,83 @@ section article {
 }
 img {
   padding: 1em;
+}
+
+/* ABOUT CSS */
+p.about {
+  font-size: 1.6em;
+}
+
+section.story.products {
+  display: grid;
+}
+article.about1 {
+  margin-bottom: 2em;
+}
+
+/* BLOG CSS */
+
+.blog {
+    color: #000;
+    font-size: 2em;
+    margin: 40px;
+    padding: 10px;
+}
+
+.b1 {
+    align-self: flex-end;
+    font-size: 3em;
+    text-align: center;
+}
+
+.b2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.b3 {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
+.b4 {
+    align-items: center;
+}
+
+.b5 {
+    font-size: 2em;
+    text-align: left;
+}
+
+.b6 {
+    font-size: 1em;
+    text-align: center;
+}
+
+/* CAREER CSS */
+.careerS {
+  display: grid;
+  text-align: center;
+}
+p.career {
+  font-size: 1.6em;
+}
+
+p.career {
+  margin-bottom: 2em;
+}
+.buttonC {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  padding: .5em .5em;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  align-self: center;
+  width: 50%;
 }
 
 /* DELIVERY CSS */
@@ -127,6 +401,19 @@ article li {
 article li:last-of-type {
     border-bottom: solid 2px #f2f2f2;
 }
+
+/* POLICY CSS */
+p.policy {
+  font-size: 1.4em;
+}
+h2.policy {
+    margin-top: 1em;
+}
+.contactlink {
+  text-decoration: none;
+  color: #38aeae;
+}
+
 
 /* CHECKOUT SHOPPING CART PAGE */
 article.shoppingcart {
@@ -166,7 +453,7 @@ img.shoppingcart {
   font-size: 1.5em;
   padding: .25em .5em;
 }
-.button:hover, .button1:hover, .joinbutton:hover {
+.button:hover, .button1:hover, .joinbutton:hover, .heroButton:hover, .graphicButton:hover {
   background-color: #ffd8db;
   color: #fff;
 }
@@ -223,6 +510,79 @@ footer p {
     margin-left:auto;
     margin-right: auto;
   }
+
+  /* HOME CSS */
+
+  #heroBanner {
+      background-image: url("../images/bgLarge.png");
+  }
+
+  section h1 {
+      font-family: "Poppins";
+      font-size: 3.5em;
+      font-weight: bold;
+      padding: 1em 0 1em 0;
+  }
+
+  .homeGraphics {
+      margin: 0 0 1em 0;
+  }
+
+  .homeGraphics:last-child {
+      margin: 0;
+  }
+
+  .homeGraphics img {
+      width: 85%;
+  }
+
+  figcaption {
+      font-family: "Poppins";
+      font-size: 2.5em;
+  }
+
+  /* FAQ CSS */
+
+  .searchBar {
+      width: 50%;
+  }
+
+  #searchSection .button {
+      width: 175px;
+  }
+
+  /* CONTACT US CSS */
+
+  #contactInfo h2 {
+      font-size: 2em;
+      margin: .5em;
+  }
+
+  #contactInfo p {
+      font-size: 1.5em;
+      margin: 1em .5em;
+  }
+
+  .contactForm {
+    margin-top: 1.5em;
+    font-size: 2rem;
+  }
+
+  .contactFieldSet input {
+      min-height: 30px;
+  }
+
+  .topic select {
+      margin: .75em 0 .75em 0;
+      min-height: 30px;
+  }
+
+  .messageBox textarea {
+      width: 85%;
+      min-height: 125px;
+      padding: .5em;
+  }
+
 
   /* NAVIGATION */
   nav {
@@ -304,8 +664,79 @@ footer p {
     padding: .5em 3.5em;
   }
 
+  /* HOME CSS */
+
+  #heroBanner {
+    grid-column: 1/-1;
+  }
+
+  .homeGraphics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: .10fr 1fr;
+      align-items: flex-end;
+      justify-content: center;
+      grid-gap: 20px;
+      grid-template-areas:
+          "h1 h1 h1"
+          "browseGraphic deliveryGraphic storeGraphic";
+      margin-right: 1em;
+  }
+
+  .homeGraphics h1 {
+      grid-area: h1;
+      padding: .75em 0 .5em 0;
+  }
+
+  .browseGraphic {
+      grid-area: browseGraphic;
+      margin-left: : 1em;
+  }
+
+  .deliveryGraphic { grid-area: deliveryGraphic; }
+
+  .storeGraphic {
+      grid-area: storeGraphic;
+      margin-right: 2em;
+  }
+
+  /* FAQ CSS */
+
+  .searchBar {
+      width: 40%;
+  }
+
+  #searchSection .button {
+      width: 200px;
+      margin-bottom: 2em;
+  }
+
+  .faqTitle h1 {
+      font-size: 3em;
+  }
+
+  .faqTitle h3 {
+      font-size: 2.5em;
+  }
+
+  #faqContainer {
+      width: 70%;
+      margin: 0 15% 2em 15%;
+      overflow: auto;
+  }
+
+  .faq .question:last-child {
+      margin-bottom: 2.5em;
+  }
+
+  /* CONTACT US CSS */
+
+  .messageBox textarea {
+      width: 80%;
+  }
+
   /* ORDER CSS*/
-  section {
+  section.orderpage {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
@@ -315,6 +746,63 @@ footer p {
   }
   article.headerimage {
     grid-column: 1/-1;
+  }
+  main {
+    padding: 0 5em;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    grid-template-rows: .5fr 1fr 1fr;
+    margin: auto;
+  }
+
+  /* ABOUT CSS */
+
+  .about1, .about2{
+    display: inline-block;
+  }
+  .story, .freshC {
+    display: inline-block;
+    width: 50%;
+  }
+  .freshC {
+    float: left;
+    word-wrap: normal;
+    max-width: 60%;
+    height: auto;
+  }
+
+  .products, .birthdayC {
+    display: inline-block;
+    width: 50%;
+  }
+  .birthdayC {
+    float: right;
+    word-wrap: normal;
+  }
+
+  /* CAREERS CSS */
+
+  .careerS {
+    display: block;
+    max-width: 400px;
+  }
+
+  img.careerI {
+    width: 100%;
+  }
+
+  main.careerM {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin: auto;
+  }
+
+  .button {
+    height: auto;
   }
 
   /* DELIVERY CSS */
